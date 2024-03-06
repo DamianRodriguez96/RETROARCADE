@@ -1,0 +1,296 @@
+*{
+  
+  box-sizing: border-box;
+}
+.general{
+  background-color: rgb(255, 144, 140);
+}
+/*****Nadvar*****/
+body {
+  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin:  0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+header{
+  display: flex;
+ min-height: 70px;
+  background-color: rgb(246, 8, 8);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 50px;
+  margin-right: 10px;
+}
+nav a{
+
+  font-weight: 600;
+  padding-right: 10px;
+}
+nav a:hover{
+  color: rgb(255, 255, 255);
+}
+@media (max-width:700px){
+  header{
+    flex-direction: column;
+
+  }
+  nav{
+    padding: 10px 0px;
+
+  }
+}
+/****Titulo*********/
+.titulo{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+/*********Nadvar***********/
+/*********Inicio***********/
+.fondo{
+  background-color: rgb(255, 144, 140);
+
+}
+.contenedor{
+  display: flex;
+  margin-top: 0px;
+  background-color: rgb(255, 144, 140);
+  padding: 25px;
+}
+.text{
+
+  padding-left: 15px;
+}
+/*******Carrucel*****/
+.carrousel{
+  width: 100%;
+}
+
+.conteCarrousel{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.itemCarrousel{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.itemCarrouselTarjeta{
+  width: 100%;
+  height: 100%;
+}
+
+.itemCarrouselArrows{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+  cursor: pointer;
+}
+
+#itemCarrousel-1{
+  background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+  background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+  background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+  text-decoration: none;
+  font-size: 2em;
+  color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+  color: white;
+}
+
+/********Contacto*********/
+.container-form{
+  width: 100;
+  max-width: 1100;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+  margin-left: 10px;
+}
+.container-form h2{
+  margin-bottom: 15px;
+  font-size: 35px
+}
+.container-form p{
+  font-size:17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  
+}
+.container-form a{
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color:rgb(0, 0, 0)
+  
+  
+}
+.container-form a i{
+
+  color: rgb(0, 0, 0);
+  margin-right: 10px; 
+   
+}
+.container-form form.campo,textarea{
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+.container-form form textarea{
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+.container-form .btn-enviar{
+  padding: 15px;
+  font-size:16px;
+  border: none;
+  outline: 0px;
+  background: red;
+  color: white;
+  border-radius: 3px;
+  transition:  all 300ms ease;
+
+}
+.container-form .btn-enviar:hover{
+  background-color: brown;
+}
+/******Footer*******/
+.pie-pagina{
+width: 100%;
+background-color: rgba(127, 5, 5, 0.81);
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin:auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1.box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pie-pagina .grupo-1.box figure img{
+
+  width: 250px;
+
+}
+.pie-pagina .grupo-1.box h2{
+    color: rgb(163, 12, 12);
+    margin-bottom: 25px;
+}
+
+
+
+/*****Nosotros******/
+.nosotros {
+  background-color: rgb(255, 144, 140);
+  justify-content: center;
+  margin: 20px;
+ 
+}
+/****Columnasfotos***/
+.column img {
+  width: 192px;
+  height: 192px;
+}
+
+.img{
+   width: 100%;
+}
+.row{
+
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.column{
+
+  flex: 25%  ;
+  padding: 5px;
+  
+}
+.column img{
+
+    margin-top: 5px;
+}
+@media (max-width: 600px){
+      .column{
+       flex: 100%;
+      
+
+
+      }
+      
+    }
+    @media (max-width: 800px){
+      .column{
+       flex: 50%;
+      
+      }
+
+      }
+
+
+
