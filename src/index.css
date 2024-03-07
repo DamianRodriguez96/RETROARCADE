@@ -70,10 +70,11 @@ nav a:hover{
   background-color: rgb(255, 144, 140);
   padding: 25px;
 }
-.text{
+.Text{
 
-  padding-left: 15px;
+  padding-left: 30px;
 }
+
 /*******Carrucel*****/
 .carrousel{
   width: 100%;
@@ -257,6 +258,14 @@ background-color: rgba(127, 5, 5, 0.81);
 
 .img{
    width: 100%;
+   transition: 4s;
+  
+
+}
+img:hover{
+  transform: scale(1.1);
+  transition: 4s;
+
 }
 .row{
 
@@ -270,11 +279,14 @@ background-color: rgba(127, 5, 5, 0.81);
   flex: 25%  ;
   padding: 5px;
   
+  
 }
 .column img{
 
     margin-top: 5px;
+    transition: all 300ms ;
 }
+
 @media (max-width: 600px){
       .column{
        flex: 100%;

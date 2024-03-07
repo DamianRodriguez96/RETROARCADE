@@ -10,7 +10,7 @@ const Inicio = () => {
                 <img className="imagen" src="./2.img.jpg" alt="" />
                 <div className="Text">
                     <h1>ATARI 2600</h1>
-                    <p >La Atari 2600 es una videoconsola lanzada al mercado en septiembre de 1977 bajo el nombre de Atari VCS (Video Computer System), convirtiéndose en el primer sistema de videojuegos en tener gran éxito, e hizo popular los cartuchos intercambiables.</p>
+                    <p>La Atari 2600 es una videoconsola lanzada al mercado en septiembre de 1977 bajo el nombre de Atari VCS (Video Computer System), convirtiéndose en el primer sistema de videojuegos en tener gran éxito, e hizo popular los cartuchos intercambiables.</p>
                 </div>
             </div>
             <div className="contenedor">
@@ -26,7 +26,7 @@ const Inicio = () => {
                     <h1>THE LEGEND OF ZELDA</h1>
                     <p >The Legend of Zelda (ゼルダの伝説でんせつ Zeruda no Densetsu?) es una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka,1​ y desarrollada por Nintendo, empresa que también se encarga de su distribución internacional. Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule.</p>
                 </div>
-                <p>Hola</p>
+
 
             </div>
 
